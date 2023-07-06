@@ -22,3 +22,35 @@
     width: 100px;
     padding: 5px;
 }
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo{
+    width: 400px;
+}
+.title{
+    font-weight: bold;
+    font-size: 54px;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.btn{
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
